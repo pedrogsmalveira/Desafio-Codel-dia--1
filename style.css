@@ -1,0 +1,138 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+ body {
+     margin: 0;
+     background: #e4e4e4;
+ }
+
+ .topc {
+     width: 100%;
+     height: 11rem;
+     background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+ }
+
+ .topc__head {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-right: 54px;
+ }
+
+ .topc__head a {
+     position: absolute;
+     top: 5%;
+     font-family: 'Lexend Deca';
+     font-weight: 400;
+     font-size: 1.3rem;
+     color: #FFFFFF;
+     text-decoration: none;
+ }
+
+ input {
+     outline: none;
+     padding: 13px;
+ }
+
+ input[type="text"] {
+     font-family: 'Inter', sans-serif;
+     margin-top: 106px;
+     margin-left: 24%;
+     width: 50%;
+     border: none;
+     background: #FFFFFF33;
+     border-radius: 3px;
+ }
+
+ ::-webkit-input-placeholder {
+     color: #ffffff9b;
+     margin-left: 2%;
+ }
+
+ .nav__topc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+ }
+
+ .nav__text{
+    width: 50%;
+    padding: 17px;
+    margin-top: 3%;
+    background: #F3F5F7;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 9px #00000038;
+    border-radius: 5px;
+ }
+
+ .nav__text a{
+    text-decoration: none;
+ }
+
+ .nav__text__date a{
+    color:#717171 ;
+    font-family: 'Lexend Deca';
+    font-size: 14px;
+    height: 18px;
+    font-weight: 400;
+ }
+
+ .nav__text__title a{
+    color: #1A202C;
+    font-family: 'Lexend Deca';
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ .nav__text__princ a{
+    color: #717171;
+    font-family: 'Lexend Deca';
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+ .nav__like a{
+    text-decoration: none;
+    color: #750707;
+    font-family: 'Inter', sans-serif;
+ }
+ 
+.curtir {
+    color: pink;
+  }
+  
+  .action :hover {
+    padding: 10px 20px;
+    background-color: rgb(197, 21, 74);
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .active{
+    background-color: rgb(252, 0, 63);
+  } 
+  
+
+
+ @media (max-width:774px) {
+     input[type="text"] {
+         margin-left: 6%;
+         width: 81%;
+     }
+
+     .topc__head {
+         gap: 74%;
+     }
+
+     .nav__text{
+        width: 72%;
+     }
+
+    .nav__text{
+        margin-top: 7%;
+    }
+
+ }
